@@ -1,0 +1,3 @@
+[submodule "server/question_answering/DrQA"]
+	path = server/question_answering/DrQA
+	url = https://github.com/facebookresearch/DrQA
