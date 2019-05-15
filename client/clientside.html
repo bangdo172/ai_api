@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <style>
+        .button{
+            background-color: white;
+            border: none;
+            color: back;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+            font-size: 16px;
+            border: 2px solid dodgerblue;
+        }
+        .button:hover {
+            background-color: dodgerblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    Input Document:
+    <div>
+        <textarea rows="10" cols="70" id="DocInput">My hair is black.</textarea>
+    </div>
+    Question:
+    <div>
+        <textarea rows="10" cols="70" id="QuesInput">What is my hair color ?</textarea>
+    </div>
+    <div>
+        <button class="button" id="btn">Submit</button>
+    </div>
+    <div id="response">
+        Answer:
+        <pre>NOTHING</pre>
+    </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="clientside.js"></script>
+</html>
