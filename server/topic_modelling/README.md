@@ -16,7 +16,7 @@ __Response:__
 
 ```js
 {
-    'answers':
+    'topics':
         [
             {
                 'result':'',    // result with highest capacity
