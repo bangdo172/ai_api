@@ -1,6 +1,6 @@
 # Topic Modelling Documentation
 
-_/infore/api/topic_modelling_ (POST, GET)
+__/infore/api/topic_modelling__ (POST, GET)
 
 __Request:__ 
 ```js
