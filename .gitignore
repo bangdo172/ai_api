@@ -1,2 +1,3 @@
 .DS_Stor
 *.bin
+server/topic_modelling/env_topic_modelling_api/
